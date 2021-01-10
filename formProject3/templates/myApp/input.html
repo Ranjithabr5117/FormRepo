@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <center>
+      <h1 style="color:blue"><u>SignupForm</u></h1>
+      <form method="post">
+        {{form.as_p}}
+        {%csrf_token%}
+        <input type="submit" class="btn_lg btn_primary" value="submit">
+        </form>
+     </center>
+  </body>
+</html>
